@@ -4,7 +4,25 @@ body {
     background-size: 1920px;
  }
 
- /*The Center Block to write down the information*/
+/*Set change to the whole tag*/
+ table, th, td {
+    table-layout: fixed ;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+td {
+    font-size: 15px;
+}
+ul{
+    text-align: left;
+    list-style-position: inside;
+}
+
+/*The Center Block to write down the information*/
 .design {
     align-items: center;
     margin-top: 3% !important;
@@ -13,7 +31,6 @@ body {
     height: 800px !important;
     background-color: white;
 }
-
 .information{
     margin: 2%;
     text-align: center;
@@ -30,7 +47,6 @@ body {
     margin-left: auto;
     margin-right: auto;    
 }
-
 img {
     border: 3px solid black;
     border-radius: 50%; 
@@ -38,18 +54,21 @@ img {
     width: 100%;
 }
 
-table
+/*Extra changes to the table*/
+.informationtable{
+    border: 2px solid;
+    margin: auto;
+    margin-bottom: 0px;
+}
+.linktable
 {
 	border-spacing: 50px 50px !important;
+    border-color: white !important;
     table-layout: fixed;
     margin: auto;
 }
 
-td {
-    padding: 17px;
-    text-align: center;
-}
-
+/*Change to the hyperlink default and when it is clicked*/
 a:link, a:visited {
     color: black;
     text-decoration: none;
@@ -69,6 +88,15 @@ i:hover{
     transition-duration: 0.5s;
 }
 
+/*Set style for the introduce text above the href*/
+.connect{
+    position: relative;
+    top: 125px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Set style for the span tag, locate the text align with i class icon*/
 .myid {
     position: relative; 
     top: -4px;
@@ -76,6 +104,7 @@ i:hover{
     font-size: 16px;
     font-style: normal;
 }
+
 /*Set colors for the button*/
 .btn-primary{
     background-color: #DDA0DD !important;
