@@ -1,6 +1,7 @@
 /*Set background of page*/
 body {
-    background-image: url("/backgrond.jpg");
+    background-image: url("background.jpg");
+    background-size: 1920px;
  }
 
  /*The Center Block to write down the information*/
