@@ -64,8 +64,8 @@ img {
 {
 	border-spacing: 50px 50px !important;
     border-color: white !important;
-    table-layout: fixed;
-    margin: auto;
+    table-layout: fixed !important;;
+    margin: auto !important;;
 }
 
 /*Change to the hyperlink default and when it is clicked*/
