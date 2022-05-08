@@ -33,7 +33,7 @@ ul{
     width: 800px !important;
     height: 800px !important;
     background-color: white;
-    max-width:fit-content !important;
+    max-width:fit-content
 }
 .information{
     margin: 2%;
@@ -114,3 +114,11 @@ i:hover{
     background-color: #DDA0DD !important;
 }
 
+
+.modal-title {
+    font-weight: bold;
+}
+
+p {
+    text-indent: 20px;
+}
