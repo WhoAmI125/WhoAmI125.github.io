@@ -24,71 +24,105 @@
 
 </head>
 <body>
-    <div class="design">
+    <div class="design shadow p-3 mb-5 bg-light rounded">
         <div class="container">
             <div class="circleimage">
-                <img src="photo.png" alt="Profile">
+                <img src="photo.png" class="profile" alt="Profile">
             </div>
 
             <div class="information">
                 <h4 style="font-weight: bold;">Hajong Kim</h4>
                 <span class="border-top border-success border-3">Sungkyunkwan University Software Engineering 21</span>
             </div>
-            
-            <div class="d-flex mt-5">
-                <table class="informationtable" style="width:90%">
-                    <tr style="text-align: center;">
-                        <th colspan="2">Some Information About Me</th>
-                      </tr>
-                    <tr class="informationtable">
-                        <td>My Hobbies!</td>
-                        <td>Basic Information About Me!</td>
-                    </tr>
-                    <tr class="informationtable">
-                        <td>
-                            <ul style="margin-bottom: 2px;">
-                                <li>Chess</li>
-                                <li>Rummy Cubes</li>
-                                <li>League Of Legends</li>
-                                <li>Comics</li>
-                                <li>Movies</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>Born in January 15, 2002</li>
-                                <li>Lived in Egypt for 15 Years</li>
-                                <li>Graduated High School as Salutatorian</li>
-                                <li>Entered SKKU in 2021</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </div>
 
-            <div class="information connect border-bottom border-success border-3">Links to Contact Me</div>
-
-            <div class="d-flex mb-2 mt-2" style="position: relative; top: 105px;">
-                <table class="linktable">
-                    <thead>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-dark shadow-sm p-3 mb-5 bg-white rounded zoom">
-                                <h3><a href="mailto:whoami125@g.skku.edu"><i class="bi bi-envelope"><span class="myid"> whoami125@g.skku.edu</span></i></a></h3>
-                            </td>
-                            <td class="text-dark shadow-sm p-3 mb-5 bg-white rounded zoom">
-                                <h3><a href="https://github.com/WhoAmI125" target="_blank"><i class="bi bi-github"><span class="myid"> WhoAmI125</span></i></a></h3>
-                            </td>
-                            <td class="text-dark shadow-sm p-3 mb-5 bg-white rounded zoom">
-                                <h3><a href="https://www.instagram.com/khj_jjong/" target="_blank"><i class="bi bi-instagram"><span class="myid"> khj_jjong</span></i></a></h3>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
             <div class="information" style="position: relative; top: 105px;">
+                <a class="btn" role="button" data-toggle="modal" data-target="#modalAboutMe" style="border-color: white; background-color: #C6D57E;">About Me</a>
+                <div class="modal fade text-center" id="modalAboutMe">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <h3 class="modal-title w-100">About Me</h3>
+                                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div style="text-align: left;">
+                                    <span class="border-bottom border-success border-2" style="font-family: Georgia, serif; font-size: 14px;"><strong>Brief Information</strong></span>
+                                    <br><span style="font-family: Georgia, serif; font-size: 14px;">I am Hajong Kim,&nbsp;</span><span style="color: rgb(0, 0, 0); font-family: Georgia, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">majoring software in Sungkyunkwan University since 2021.&nbsp;</span>
+                                    <span style="color: rgb(0, 0, 0); font-family: Georgia, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">My interest is backend.</span>
+                                    <p><span style="font-family: Georgia, serif; font-size: 14px;"><br></span></p>
+                                    <span class="border-bottom border-success border-2" style="font-family: Georgia, serif; font-size: 14px;"><strong>More About My Life</strong></span>
+                                    <br><span style="font-family: Georgia, serif; font-size: 14px;"><img src="aboutmeprofile.jpg" alt="Profile" style="width: 200px; height:200px; margin-top: 7px;"></span>
+                                    <br><p><span style="font-family: Georgia, serif; font-size: 14px;">I grew up in Egypt since I was one year old. I graduated from elementary school, middle school, and high school in Cairo, Egypt. &nbsp;</span>
+                                    <p><span style="font-family: Georgia, serif; font-size: 14px;">As TCK, my life did not grow as easily and I sometimes had conflicts over where my identity belonged, but life in Egypt generally allowed me to meet various people, so I could understand other cultures and respect without much stereotype.&nbsp;</span></p>
+                                    <p><span style="color: rgb(0, 0, 0); font-family: Georgia, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(253, 253, 253); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">I enrolled at the University of Alberta for a semester after graduating from CSS as&nbsp;</span><span style="font-family: Georgia, serif; font-size: 14px;">salutatorian</span><span style="color: rgb(0, 0, 0); font-family: Georgia, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(253, 253, 253); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">. Originally, my plan was to graduate from UofA, but due to the COVID-19 incident, I decided to come to Korea and start university education, and that was SKKU.</span></p>
+                                    <p><span style="font-family: Georgia, serif; font-size: 14px;"><br></span></p>
+                                    <p><span style="font-family: Georgia, serif; font-size: 14px;"><br></span></p>
+                                    <p><span style="font-family: Georgia, serif; font-size: 14px;"><br></span></p>
+
+                                    <div class="d-flex mt-5">
+                                        <table class="informationtable" style="width:90%">
+                                            <tr style="text-align: center;">
+                                                <th colspan="2">Some Information About Me</th>
+                                              </tr>
+                                            <tr class="informationtable">
+                                                <td>My Hobbies!</td>
+                                                <td>Basic Information About Me!</td>
+                                            </tr>
+                                            <tr class="informationtable">
+                                                <td>
+                                                    <ul style="margin-bottom: 2px;">
+                                                        <li>Chess</li>
+                                                        <li>Rummy Cubes</li>
+                                                        <li>League Of Legends</li>
+                                                        <li>Comics</li>
+                                                        <li>Movies</li>
+                                                    </ul>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Born in January 15, 2002</li>
+                                                        <li>Lived in Egypt for 15 Years</li>
+                                                        <li>Graduated High School as Salutatorian</li>
+                                                        <li>Entered SKKU in 2021</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="btn" role="button" data-toggle="modal" data-target="#modalschedule" style="border-color: white; background-color: #C9E0EC;">Time Schedule</a>
+                <div class="modal fade text-center" id="modalschedule">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <h3 class="modal-title w-100">Time Schedule</h3>
+                                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="information">
+                                    <iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=1&bgcolor=%237CB342&ctz=Asia%2FSeoul&hl=en&src=d2hvYW1pMTI1QGcuc2trdS5lZHU&src=a28uc291dGhfa29yZWEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%230B8043"
+                                            style="border:solid 1px #777" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <a class="btn btn-primary" href="/HajongKim_Resume.pdf" target="_blank" role="button" style="border-color: white;">Resume</a>
+                
                 <!-- Button trigger modal -->
                 <a class="btn btn-warning" role="button" data-toggle="modal" data-target="#exampleModalLong">Projects</a>
                 <!-- Modal -->
@@ -139,6 +173,27 @@
                     </div>
                 </div>
             </div>
+
+            <div class="mb-2 mt-2 position-relative" style="top: 150px; left: -10px;">
+                <table class="linktable">
+                    <thead>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-dark shadow-sm p-3 mb-5 bg-white rounded zoom">
+                                <h5><a href="mailto:whoami125@g.skku.edu"><i class="bi bi-envelope"><span class="myid"> whoami125@g.skku.edu</span></i></a></h5>
+                            </td>
+                            <td class="text-dark shadow-sm p-3 mb-5 bg-white rounded zoom">
+                                <h5><a href="https://github.com/WhoAmI125" target="_blank"><i class="bi bi-github"><span class="myid"> WhoAmI125</span></i></a></h5>
+                            </td>
+                            <td class="text-dark shadow-sm p-3 mb-5 bg-white rounded zoom">
+                                <h5><a href="https://www.instagram.com/khj_jjong/" target="_blank"><i class="bi bi-instagram"><span class="myid"> khj_jjong</span></i></a></h5>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
         </div>
     </div>
     
