@@ -12,13 +12,15 @@ body {
     table-layout: fixed ;
     border: 1px solid black;
     border-collapse: collapse;
+    width: 180px;
 }
 th, td {
     padding: 5px;
     text-align: center;
 }
 td {
-    font-size: 15px;
+    font-family: Georgia, serif; 
+    font-size: 14px;
 }
 ul{
     text-align: left;
@@ -28,12 +30,11 @@ ul{
 /*The Center Block to write down the information*/
 .design {
     align-items: center;
-    margin-top: 3% !important;
+    margin-top: 10% !important;
     margin: auto;
-    width: 800px !important;
-    height: 800px !important;
+    width: 580px !important;
+    height: 580px !important;
     background-color: white;
-    max-width:fit-content
 }
 .information{
     margin: 2%;
@@ -51,7 +52,7 @@ ul{
     margin-left: auto;
     margin-right: auto;    
 }
-img {
+.profile {
     border: 3px solid black;
     border-radius: 50%; 
     height: auto;
@@ -62,14 +63,15 @@ img {
 .informationtable{
     border: 2px solid;
     margin: auto;
-    margin-bottom: 0px;
+    margin-top: -150px;
+    
 }
 .linktable
 {
 	border-spacing: 50px 50px !important;
     border-color: white !important;
-    table-layout: fixed !important;;
-    margin: auto !important;;
+    table-layout: fixed !important;
+    margin: auto !important;
 }
 
 /*Change to the hyperlink default and when it is clicked*/
@@ -103,9 +105,9 @@ i:hover{
 /*Set style for the span tag, locate the text align with i class icon*/
 .myid {
     position: relative; 
-    top: -4px;
+    top: -1px;
     line-height: 20px;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
 }
 
