@@ -1,0 +1,160 @@
+/*Set background of page*/
+body {
+    background: url("/source/background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+
+/*Set change to the whole tag*/
+ table, th, td {
+    table-layout: fixed ;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 180px;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+td {
+    font-family: Georgia, serif; 
+    font-size: 14px;
+}
+ul{
+    text-align: left;
+    list-style-position: inside;
+}
+
+/*The Center Block to write down the information*/
+.design {
+    align-items: center;
+    margin-top: 10% !important;
+    margin: auto;
+    width: 580px !important;
+    height: 580px !important;
+    background-color: white;
+}
+.information{
+    margin: 2%;
+    text-align: center;
+}
+
+/*Profile Image*/
+.circleimage { 
+    /*To place blocks to the center of page*/
+    width: 150px; 
+    height: 150px;
+    padding-top: 2%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.profile {
+    border: 3px solid black;
+    border-radius: 50%; 
+    height: auto;
+    width: 100%;
+}
+
+/*Extra changes to the table*/
+.informationtable{
+    border: 2px solid;
+    margin: auto;
+    margin-top: -150px;
+    
+}
+.linktable
+{
+	border-spacing: 50px 50px !important;
+    border-color: white !important;
+    table-layout: fixed !important;
+    margin: auto !important;
+}
+
+/*Change to the hyperlink default and when it is clicked*/
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+i {
+    color: black;
+}
+
+i:hover{
+    color: peru !important;
+    background-color: transparent;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+/*Set style for the introduce text above the href*/
+.connect{
+    position: relative;
+    top: 105px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Set style for the span tag, locate the text align with i class icon*/
+.myid {
+    position: relative; 
+    top: -1px;
+    line-height: 20px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+/*Set colors for the button*/
+.btn-primary{
+    background-color: #DDA0DD !important;
+}
+
+
+.modal-title {
+    font-weight: bold;
+}
+
+.indent {
+    text-indent: 20px;
+}
+
+
+/*For Contact Form
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containerofcontact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}*/
