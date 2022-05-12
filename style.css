@@ -94,6 +94,12 @@ i:hover{
     transition-duration: 0.5s;
 }
 
+.tab:hover{
+    border: solid black 1px !important;
+    color:white !important;
+    transition-duration: 0.1s;
+}
+
 /*Set style for the introduce text above the href*/
 .connect{
     position: relative;
